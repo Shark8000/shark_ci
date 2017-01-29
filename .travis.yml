@@ -8,4 +8,4 @@ deploy:
   api_key: 1ba4bdd6-e8f1-4533-b976-47adca488686
   skip_cleanup: true
   app:
-    master: shark_ci
+    master: shark-ci
