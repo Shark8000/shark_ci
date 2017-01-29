@@ -1,4 +1,5 @@
 language: node_js
 node_js:
-  - "6.x"
-  npm install
+  - "6.9"
+install:
+  - npm install
