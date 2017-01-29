@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "6.9";
-install:
-  - npm install
+ // - "6.9"
+//install:
+  /- npm install
 deploy:
   provider: heroku
   api_key: 1ba4bdd6-e8f1-4533-b976-47adca488686
