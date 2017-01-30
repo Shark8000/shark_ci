@@ -9,4 +9,3 @@ deploy:
   skip_cleanup: true
   app:
     master: shark-ci
-    staging: shark-app
