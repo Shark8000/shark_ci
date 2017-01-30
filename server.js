@@ -5,7 +5,7 @@ var express        = require('express');
 var app            = express();
 var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 
 // configuration ===========================================
     
@@ -17,7 +17,7 @@ var port = process.env.PORT || 8080;
 
 // connect to our mongoDB database 
 // (uncomment after you enter in your own credentials in config/db.js)
-mongoose.connect(db.url); 
+//mongoose.connect(db.url); 
 
 // get all data/stuff of the body (POST) parameters
 // parse application/json 
@@ -40,10 +40,10 @@ require('./app/routes')(app); // configure our routes
 
 // start app ===============================================
 // startup our app at http://localhost:8080
-app.listen(port, function(){               
+app.listen(port);               
 
 // shoutout to the user                     
-console.log('Magic happens on port ' + port)});
+console.log('Magic happens on port ' + port);
 
 // expose app           
 exports = module.exports = app;                         
